@@ -2165,7 +2165,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #164418;
+  background: #82ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3464,7 +3464,10 @@ img:hover {
   }
 }
 body {
-  background: url("/images/hexo-bg.jpg");
+  background: url("https://source.unsplash.com/random/1600x900");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
 }
 code {
   color: #ff7600;
